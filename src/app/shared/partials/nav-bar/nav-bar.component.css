@@ -1,4 +1,4 @@
-.spacer {
+/*.spacer {
   flex: 1 1 auto;
 }
 
@@ -8,4 +8,24 @@
 
 .pointer {
   cursor:pointer;
+}*/
+
+.notmoved {
+  background-color: black;
+  z-index: 1000;
+  width: 100%;
+  font-size: 1.5rem;
+  color: white;
+  z-index: 1000;
+  position: fixed;
+  transition: .5s ease-in-out;
+}
+.moved {
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  font-size: 2rem;
+  color: white;
+  z-index: 1000;
+  transition: .5s ease-in-out;
 }

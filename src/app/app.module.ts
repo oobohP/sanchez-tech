@@ -7,8 +7,6 @@ import { NavBarComponent } from './shared/partials/nav-bar/nav-bar.component';
 import { FooterComponent } from './shared/partials/footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './shared/material.module';
-import { HomeLandingComponent } from './public/pages/home-sections/home-landing/home-landing.component';
-
 
 @NgModule({
   declarations: [
@@ -16,7 +14,6 @@ import { HomeLandingComponent } from './public/pages/home-sections/home-landing/
     NavBarComponent,
     FooterComponent,
     routingComponents,
-    HomeLandingComponent
   ],
   imports: [
     BrowserModule,
