@@ -7,6 +7,7 @@ import { NavBarComponent } from './shared/partials/nav-bar/nav-bar.component';
 import { FooterComponent } from './shared/partials/footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './shared/material.module';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MaterialModule } from './shared/material.module';
   imports: [
     BrowserModule,
     MaterialModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MDBBootstrapModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

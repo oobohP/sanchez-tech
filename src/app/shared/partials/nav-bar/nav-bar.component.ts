@@ -20,6 +20,6 @@ export class NavBarComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.scrolledState = 'notmoved';
+    this.scrolledState = 'moved';
   }
 }

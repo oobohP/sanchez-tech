@@ -1,3 +1,7 @@
 mat-card {
     background: red;
 }
+
+.picture-size {
+    max-height: 560px;
+}
