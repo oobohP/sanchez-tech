@@ -12,33 +12,42 @@
 <mdb-carousel class="carousel slide carousel-fade" [animation]="'fade'">
 
   <mdb-carousel-item class="picture-size">
-    <div class="view w-100">
-      <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg" alt="First slide">
-      <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
+    <div class="view w-100 img-container">
+      <img class="d-block w-100 " src="../../../../../assets/pc-repair.jpg" alt="Hands repairing pc">
+      <div mdbWavesEffect></div>
     </div>
-    <div class="carousel-caption">
-      <h3 class="h3-responsive">Light mask</h3>
-      <p>First text</p>
+    <div class="carousel-caption description-text">
+      <h1 class="h1-responsive" style="font-weight:400; font-size: 3.5em;">COMPUTER REPAIR</h1>
+      <p style="font-size: 1.4em">We have full service repairs for PC's, Macintosh's, Desktops and Laptops.<br />
+         With over 14 years business we strive to fix any problem you may have.</p>
+         <button routerLink="/contact" mat-button style="background-color: orange;"> Learn More </button>
     </div>
   </mdb-carousel-item>
+
   <mdb-carousel-item class="picture-size">
-    <div class="view w-100">
+    <div class="view w-100 img-container">
       <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg" alt="Second slide">
-      <div class="mask rgba-black-strong waves-light" mdbWavesEffect></div>
+      <div mdbWavesEffect></div>
     </div>
-    <div class="carousel-caption">
-      <h3 class="h3-responsive">Strong mask</h3>
-      <p>Secondary text</p>
+    <div class="carousel-caption description-text">
+      <h1 class="h1-responsive" style="font-weight:400; font-size: 3.5em;">{{"phone repair" | uppercase}}</h1>
+
+      <p style="font-size: 1.4em">We can fix your problems regarding your mobile phone.<br />
+        We repair iPhone and Android phone components and phone screens as well!
+      </p>
+          <button mat-button routerLink="/contact" mat-button style="background-color: orange;">Services</button>
     </div>
   </mdb-carousel-item>
+
   <mdb-carousel-item class="picture-size">
-    <div class="view w-100">
+    <div class="view w-100 img-container">
       <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg" alt="Third slide">
-      <div class="mask rgba-black-slight waves-light" mdbWavesEffect></div>
+      <div mdbWavesEffect></div>
     </div>
-    <div class="carousel-caption">
-      <h3 class="h3-responsive">Slight mask</h3>
-      <p>Third text</p>
+    <div class="carousel-caption description-text">
+      <h1 class="h1-responsive">{{"call us" | uppercase}}</h1>
+      <p>picture of graphic call us is here, button and maybe locations go here</p>
     </div>
   </mdb-carousel-item>
+
 </mdb-carousel>
