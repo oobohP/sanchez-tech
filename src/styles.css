@@ -6,9 +6,13 @@
 
 a {
   /*text-decoration: none;*/
-  color: grey;
+  color: white;
 }
 
 a:hover {
   color: lightsteelblue;
+}
+
+html {
+    scroll-behavior: smooth;
 }

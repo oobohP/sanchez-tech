@@ -11,3 +11,21 @@
 .img-container { background-color: #000000; }
 .img-container img { opacity: 0.2; }
 
+.section {
+    margin-bottom: 1%;
+}
+
+.logo-size {
+    padding: 3%;
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.light-gray {
+    background-color: WhiteSmoke;
+}
+
+.carousel-button {
+    background-color: #3399ff;
+    color: white;
+}
