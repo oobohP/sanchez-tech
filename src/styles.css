@@ -16,3 +16,8 @@ a:hover {
 html {
     scroll-behavior: smooth;
 }
+
+.section {
+    margin-bottom: 1%;
+}
+

@@ -1,4 +1,24 @@
+.picture-size {
+    max-height: 560px;
+}
 
-.example-card {
-  max-width: 100%;
+.description-text {
+    top: 35%;
+    left: 15%;
+}
+
+/*Black overlay for cover images*/
+.img-container { background-color: #000000; }
+.img-container img { opacity: 0.2; }
+
+
+.logo-size {
+    padding: 3%;
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.carousel-button {
+    background-color: #3399ff;
+    color: white;
 }

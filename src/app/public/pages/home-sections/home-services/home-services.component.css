@@ -1,0 +1,18 @@
+.logo-size {
+    padding: 3%;
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.light-gray {
+    background-color: WhiteSmoke;
+}
+
+/*So navbar does not block content when jumping to in page anchors*/
+*[id]:before {
+  display: block;
+  content: " ";
+  margin-top: -75px;
+  height: 75px;
+  visibility: hidden;
+}

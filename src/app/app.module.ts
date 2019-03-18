@@ -8,6 +8,8 @@ import { FooterComponent } from './shared/partials/footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './shared/material.module';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
+import { HomeServicesComponent } from './public/pages/home-sections/home-services/home-services.component';
+import { LocationsComponent } from './public/pages/home-sections/locations/locations.component';
 
 
 @NgModule({
@@ -16,6 +18,8 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
     NavBarComponent,
     FooterComponent,
     routingComponents,
+    HomeServicesComponent,
+    LocationsComponent,
   ],
   imports: [
     BrowserModule,

@@ -3,7 +3,6 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './public/pages/home/home.component';
 import { ContactComponent } from './public/pages/contact/contact.component';
 import { HomeLandingComponent } from './public/pages/home-sections/home-landing/home-landing.component';
-import { HomeContentComponent } from './public/pages/home-sections/home-content/home-content.component';
 
 
 const routes: Routes = [
@@ -31,4 +30,4 @@ const routes: Routes = [
 })
 export class AppRoutingModule { }
 
-export const routingComponents = [HomeComponent, ContactComponent, HomeLandingComponent, HomeContentComponent]
+export const routingComponents = [HomeComponent, ContactComponent, HomeLandingComponent]
