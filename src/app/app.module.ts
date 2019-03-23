@@ -10,6 +10,7 @@ import { MaterialModule } from './shared/material.module';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { HomeServicesComponent } from './public/pages/home-sections/home-services/home-services.component';
 import { LocationsComponent } from './public/pages/home-sections/locations/locations.component';
+import { HomeContactComponent } from './public/pages/home-sections/home-contact/home-contact.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { LocationsComponent } from './public/pages/home-sections/locations/locat
     routingComponents,
     HomeServicesComponent,
     LocationsComponent,
+    HomeContactComponent,
   ],
   imports: [
     BrowserModule,

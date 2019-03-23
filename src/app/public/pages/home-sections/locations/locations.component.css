@@ -1,3 +1,22 @@
-.light-gray {
-    background-color: WhiteSmoke;
+/*background color for map canvas*/
+.map-bg {
+    background-color: #1c89f2;
+}
+
+/*So navbar does not block content when jumping to in page anchors*/
+*[id]:before {
+  display: block;
+  content: " ";
+  margin-top: 10px;
+  height: 50px;
+  visibility: hidden;
+}
+
+.locations-header {
+  display: inline-block;
+  width: 100%;
+  color: white;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  background-color: #1c89f2;
 }
