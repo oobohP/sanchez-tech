@@ -1,0 +1,12 @@
+/*So navbar does not block content when jumping to in page anchors*/
+*[id]:before {
+  display: block;
+  content: " ";
+  margin-top: -75px;
+  height: 75px;
+  visibility: hidden;
+}
+
+
+.img-container { background-color: #000000; }
+.img-container img { opacity: 0.6; }

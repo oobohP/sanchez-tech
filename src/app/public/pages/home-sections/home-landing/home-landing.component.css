@@ -1,5 +1,8 @@
 .picture-size {
-    max-height: 560px;
+    height: auto;
+    width: 100%;
+    max-height: 1000px;
+    max-width: auto;
 }
 
 .description-text {
@@ -21,4 +24,17 @@
 .carousel-button {
     background-color: #3399ff;
     color: white;
+}
+
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 767px) {
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+/* tablets/desktops and up ----------- */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+/* large desktops and up ----------- */
+@media screen and (min-width: 1200px) {
 }
